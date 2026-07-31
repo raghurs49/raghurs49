@@ -52,4 +52,4 @@ Readable Python solutions with reasoning, complexity analysis, tests, and interv
 
 ---
 
-Currently open to senior AI/ML, GenAI, and ML platform engineering opportunities in Bengaluru, Hyderabad, Gurugram, and remote teams.
+Currently open to senior AI/ML, GenAI, and ML platform engineering opportunities.
