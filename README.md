@@ -25,8 +25,8 @@ A retrieval data pipeline for moving source records from Cloud SQL into Pinecone
 ### [GCP Data Ingestion Workflows](https://github.com/raghurs49/fetch_data_gcp)
 Notebook-driven GCS-to-BigQuery ingestion workflows with service-account authentication and environment-aware CI/CD patterns.
 
-### Python Interview Solutions
-Readable Python solutions with reasoning, complexity analysis, tests, and interview-oriented explanations. Repository publishing is in progress.
+### [Python Interview Solutions](https://github.com/raghurs49/python-interview-solutions)
+Readable Python solutions with reasoning, complexity analysis, tests, and interview-oriented explanations.
 
 ## Experience snapshot
 
