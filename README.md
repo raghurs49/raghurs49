@@ -20,7 +20,7 @@ I bring **7+ years of engineering experience** across applied machine learning, 
 ## Selected engineering work
 
 ### [Vector Embeddings Ingestion Pipeline](https://github.com/raghurs49/vector_embeddings_ingestion_pipeline)
-A retrieval data pipeline for moving source records from Cloud SQL into Pinecone as searchable vector embeddings.
+A containerized pipeline that reads records from Cloud SQL, generates embeddings with Vertex AI, and writes enriched records to a dedicated database table for downstream retrieval workflows.
 
 ### [GCP Data Ingestion Workflows](https://github.com/raghurs49/fetch_data_gcp)
 Notebook-driven GCS-to-BigQuery ingestion workflows with service-account authentication and environment-aware CI/CD patterns.
