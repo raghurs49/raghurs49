@@ -2,7 +2,7 @@
 
 ### Senior AI/ML Engineer · Production GenAI, RAG, Retail Forecasting & MLOps
 
-I design and ship AI systems that survive production: retrieval pipelines, LLM applications, distributed data workflows, model-serving platforms, and cloud-native infrastructure on Google Cloud.
+I design and ship AI systems that survive production: retrieval pipelines, agent workflows, LLM evaluation, distributed data systems, model-serving platforms, and cloud-native infrastructure across GCP and AWS.
 
 I bring **7+ years of engineering experience** across applied machine learning, MLOps, computer vision, retail forecasting, and GenAI, with a focus on reliability, scale, and measurable product outcomes.
 
@@ -12,15 +12,21 @@ I bring **7+ years of engineering experience** across applied machine learning, 
 
 ## What I work on
 
-- **Generative AI:** RAG, vector search, embeddings, prompt and retrieval evaluation, LLM application architecture
+- **Generative AI:** RAG, LangGraph, MCP, vector search, embeddings, retrieval evaluation, guardrails, and agent reliability
 - **Retail forecasting & ML systems:** demand forecasting, time-series modelling, feature engineering, model optimization, monitoring, and production serving
-- **Cloud & MLOps:** Vertex AI, BigQuery, Cloud Run, GKE, Kubernetes, CI/CD, and infrastructure automation
+- **Cloud & MLOps:** Vertex AI, BigQuery, Cloud Run, AWS Bedrock, S3, IAM, Kubernetes, CI/CD, and observability
 - **Data engineering:** Python, SQL, PySpark, distributed pipelines, APIs, and batch/stream processing
 
 ## Selected engineering work
 
+### [RAG Quality Workbench](https://github.com/raghurs49/rag-quality-workbench)
+A production-shaped Next.js and FastAPI RAG system with OpenAI, Claude, and Gemini adapters, Postgres/pgvector hybrid retrieval, reranking, citations, abstention, and latency/token/cost traces. Its evaluation harness compares chunking and retrieval configurations through the same pipeline used by the live API. **77 automated tests**, including a real application-startup smoke path.
+
+### [Reliable LangGraph Support Agent](https://github.com/raghurs49/langgraph-support-agent)
+A reliability-focused router/supervisor graph with knowledge and order agents, SQLite-backed state, structured node outputs, human approval for risky actions, low-confidence escalation, retries, timeouts, circuit breaking, tracing, and scenario-based evaluation through the compiled graph. **66 automated tests and 11 labeled evaluation scenarios.**
+
 ### [Secure BigQuery MCP Gateway](https://github.com/raghurs49/secure-bigquery-mcp-gateway)
-A Cloud Run-ready remote MCP service that gives AI assistants constrained, read-only access to BigQuery. It separates caller authentication from the Google service identity and adds dataset allowlists, SQL validation, dry-run cost checks, query limits, audit labels, Docker packaging, and automated policy tests.
+A Cloud Run-ready, multi-connector MCP gateway with OIDC authentication, RBAC, constrained BigQuery and PostgreSQL access, governed REST tools, PII masking, rate limits, structured audit logging, and separate caller/workload identities. **34 automated tests plus 7 connector subtests.**
 
 ### Policy Intelligence & Semantic Search Platform *(private organization work)*
 Built a production policy-intelligence system combining a Dash/Flask application, Vertex AI embeddings, ScaNN semantic retrieval, and Cloud SQL. Delivered the supporting API and scheduled workflows on Cloud Run with private database connectivity, Secret Manager, Artifact Registry, and workload identity federation. The source remains private; architecture and engineering decisions can be discussed in interviews.
@@ -56,7 +62,7 @@ Readable Python solutions with reasoning, complexity analysis, tests, and interv
 
 ## Core stack
 
-`Python` · `SQL` · `Retail forecasting` · `Time series` · `PySpark` · `TensorFlow` · `PyTorch` · `scikit-learn` · `FastAPI` · `Vertex AI` · `BigQuery` · `Cloud Run` · `GKE` · `Kubernetes` · `Docker` · `CI/CD` · `RAG` · `Vector databases`
+`Python` · `SQL` · `RAG` · `LangGraph` · `MCP` · `LLM evaluation` · `pgvector` · `PySpark` · `TensorFlow` · `PyTorch` · `FastAPI` · `Vertex AI` · `BigQuery` · `Cloud Run` · `AWS Bedrock` · `Kubernetes` · `Docker` · `CI/CD`
 
 ---
 
