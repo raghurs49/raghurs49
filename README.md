@@ -6,7 +6,7 @@ I design and ship AI systems that survive production: retrieval pipelines, agent
 
 I bring **7+ years of engineering experience** across applied machine learning, MLOps, computer vision, retail forecasting, and GenAI, with a focus on reliability, scale, and measurable product outcomes.
 
-[Portfolio](https://rs-portfolio-teal.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/raghu-sharma-7091b4115/) · [Email](mailto:raghusharma0404@gmail.com)
+[Portfolio](https://rs-portfolio-teal.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/raghu-sharma-7091b4115/) · [Upwork](https://www.upwork.com/freelancers/raghurs) · [Email](mailto:raghusharma0404@gmail.com)
 
 ---
 
@@ -28,6 +28,9 @@ A reliability-focused router/supervisor graph with knowledge and order agents, S
 ### [Secure BigQuery MCP Gateway](https://github.com/raghurs49/secure-bigquery-mcp-gateway)
 A Cloud Run-ready, multi-connector MCP gateway with OIDC authentication, RBAC, constrained BigQuery and PostgreSQL access, governed REST tools, PII masking, rate limits, structured audit logging, and separate caller/workload identities. **34 automated tests plus 7 connector subtests.**
 
+### [AWS Bedrock RAG API](https://github.com/raghurs49/aws-bedrock-rag-api)
+A deployable FastAPI reference service with S3-backed ingestion, Bedrock Knowledge Bases, grounded answers with citations, least-privilege IAM, guardrail support, structured logging, CI, tests, and container delivery. Independent portfolio engineering, not client work.
+
 ### Policy Intelligence & Semantic Search Platform *(private organization work)*
 Built a production policy-intelligence system combining a Dash/Flask application, Vertex AI embeddings, ScaNN semantic retrieval, and Cloud SQL. Delivered the supporting API and scheduled workflows on Cloud Run with private database connectivity, Secret Manager, Artifact Registry, and workload identity federation. The source remains private; architecture and engineering decisions can be discussed in interviews.
 
@@ -48,15 +51,14 @@ Readable Python solutions with reasoning, complexity analysis, tests, and interv
 ## Experience snapshot
 
 - **Independent AI/ML Engineer** — production-oriented AI and cloud engineering
-- **Open Insights** — AI/ML Engineer
+- **Open Insights** — Machine Learning Engineer (ML/MLOps)
 - **Capgemini** — MLOps Engineer
-- **Hughes Systique** — Machine Learning Engineer
+- **Hughes Systique** — Data Scientist / ML Engineer
 - **Integration Wizards** — Machine Learning Intern
 
 ## Credentials
 
-- Google Cloud **Professional Cloud Architect**
-- Previously certified: Google Cloud **Professional Machine Learning Engineer**
+- Google Cloud Professional credentials earned: **Cloud Architect** and **Machine Learning Engineer**
 - NVIDIA Jetson AI certification
 - Kaggle ranking: approximately top 11% (800 / 7,000)
 
