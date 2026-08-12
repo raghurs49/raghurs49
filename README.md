@@ -22,6 +22,11 @@ I bring **7+ years of engineering experience** across applied machine learning, 
 ### Policy Intelligence & Semantic Search Platform *(private organization work)*
 Built a production policy-intelligence system combining a Dash/Flask application, Vertex AI embeddings, ScaNN semantic retrieval, and Cloud SQL. Delivered the supporting API and scheduled workflows on Cloud Run with private database connectivity, Secret Manager, Artifact Registry, and workload identity federation. The source remains private; architecture and engineering decisions can be discussed in interviews.
 
+### Recommendation from a former manager
+Bill Kerr, Chief Scientist at Open Insights, described me as a core contributor to the Open ML 1.5 forecasting platform and highlighted my ability to move between model training, deployment, PySpark, and GCP infrastructure.
+
+> "Raghu was a core contributor to Open ML 1.5... comfortable moving between training and deploying ML models, writing and optimizing PySpark jobs, and managing cloud infrastructure on GCP, including BigQuery and Dataproc."
+
 ### [Vector Embeddings Ingestion Pipeline](https://github.com/raghurs49/vector_embeddings_ingestion_pipeline)
 A containerized pipeline that reads records from Cloud SQL, generates embeddings with Vertex AI, and writes enriched records to a dedicated database table for downstream retrieval workflows.
 
