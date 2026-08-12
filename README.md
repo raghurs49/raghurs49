@@ -19,6 +19,9 @@ I bring **7+ years of engineering experience** across applied machine learning, 
 
 ## Selected engineering work
 
+### [Secure BigQuery MCP Gateway](https://github.com/raghurs49/secure-bigquery-mcp-gateway)
+A Cloud Run-ready remote MCP service that gives AI assistants constrained, read-only access to BigQuery. It separates caller authentication from the Google service identity and adds dataset allowlists, SQL validation, dry-run cost checks, query limits, audit labels, Docker packaging, and automated policy tests.
+
 ### Policy Intelligence & Semantic Search Platform *(private organization work)*
 Built a production policy-intelligence system combining a Dash/Flask application, Vertex AI embeddings, ScaNN semantic retrieval, and Cloud SQL. Delivered the supporting API and scheduled workflows on Cloud Run with private database connectivity, Secret Manager, Artifact Registry, and workload identity federation. The source remains private; architecture and engineering decisions can be discussed in interviews.
 
