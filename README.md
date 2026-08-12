@@ -49,8 +49,8 @@ Readable Python solutions with reasoning, complexity analysis, tests, and interv
 
 ## Credentials
 
-- Google Cloud **Professional Machine Learning Engineer**
 - Google Cloud **Professional Cloud Architect**
+- Previously certified: Google Cloud **Professional Machine Learning Engineer**
 - NVIDIA Jetson AI certification
 - Kaggle ranking: approximately top 11% (800 / 7,000)
 
