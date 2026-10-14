@@ -1,6 +1,6 @@
 # Raghu Sharma
 
-### Senior AI/ML Engineer · Production GenAI, RAG, Retail Forecasting & MLOps
+### Senior AI/ML Engineer · Agentic AI, LLM Evaluation, RAG & MLOps
 
 I design and ship AI systems that survive production: retrieval pipelines, agent workflows, LLM evaluation, distributed data systems, model-serving platforms, and cloud-native infrastructure across GCP and AWS.
 
@@ -12,12 +12,16 @@ I bring **7+ years of engineering experience** across applied machine learning, 
 
 ## What I work on
 
+- **Agentic workflows & evaluation:** Temporal orchestration (signals, retries, human approval), Langfuse tracing, hidden-test evaluation, guardrails, and quality gates for AI-generated work
 - **Generative AI:** RAG, LangGraph, MCP, vector search, embeddings, retrieval evaluation, guardrails, and agent reliability
 - **Retail forecasting & ML systems:** demand forecasting, time-series modelling, feature engineering, model optimization, monitoring, and production serving
 - **Cloud & MLOps:** Vertex AI, BigQuery, Cloud Run, AWS Bedrock, S3, IAM, Kubernetes, CI/CD, and observability
 - **Data engineering:** Python, SQL, PySpark, distributed pipelines, APIs, and batch/stream processing
 
 ## Selected engineering work
+
+### [Agentic Delivery Pipeline](https://github.com/raghurs49/agentic-delivery-pipeline)
+A spec-to-delivery agent pipeline orchestrated with **Temporal**: structured spec, a human-approval checkpoint (signal with timeout), tests written from the spec before any code, a bounded repair loop, sandboxed test runs, review, and a quality gate. Every run is traced in **Langfuse**, and an evaluation harness scores results against hidden tests the agents never see, so the gate itself is measured (precision, false accepts, false rejects). Real-model runs on free local models showed that repair loops can turn working code into broken code by chasing flawed generated tests. **106 automated tests**, including real Temporal workflow scenarios and a deterministic replay regression in CI. Personal project.
 
 ### [RAG Quality Workbench](https://github.com/raghurs49/rag-quality-workbench)
 A production-shaped Next.js and FastAPI RAG system with OpenAI, Claude, and Gemini adapters, Postgres/pgvector hybrid retrieval, reranking, citations, abstention, and latency/token/cost traces. Its evaluation harness compares chunking and retrieval configurations through the same pipeline used by the live API. **77 automated tests**, including a real application-startup smoke path.
@@ -64,7 +68,7 @@ Readable Python solutions with reasoning, complexity analysis, tests, and interv
 
 ## Core stack
 
-`Python` · `SQL` · `RAG` · `LangGraph` · `MCP` · `LLM evaluation` · `pgvector` · `PySpark` · `TensorFlow` · `PyTorch` · `FastAPI` · `Vertex AI` · `BigQuery` · `Cloud Run` · `AWS Bedrock` · `Kubernetes` · `Docker` · `CI/CD`
+`Python` · `SQL` · `RAG` · `LangGraph` · `MCP` · `Temporal` · `Langfuse` · `LLM evaluation` · `pgvector` · `PySpark` · `TensorFlow` · `PyTorch` · `FastAPI` · `Vertex AI` · `BigQuery` · `Cloud Run` · `AWS Bedrock` · `Kubernetes` · `Docker` · `CI/CD`
 
 ---
 
